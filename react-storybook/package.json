@@ -10,9 +10,11 @@
   "author": "Ryan Jones",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "core-js": "^3.9.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "core-js": "^2.5.7"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
