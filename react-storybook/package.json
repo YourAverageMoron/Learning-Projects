@@ -1,17 +1,18 @@
 {
-  "name": "react-component-library",
+  "name": "react-storybook",
   "version": "1.0.0",
-  "description": "Reusable React components library template",
+  "description": "For creating react components",
   "main": "dist/index.js",
   "scripts": {
-    "start": "start-storybook",
+    "start": "start-storybook -p 3001",
     "build": "webpack --mode production"
   },
   "author": "Ryan Jones",
   "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "core-js": "^2.5.7"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
