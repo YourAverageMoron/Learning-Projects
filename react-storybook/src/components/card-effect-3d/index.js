@@ -18,7 +18,6 @@ const CardEffect3D = (props) => {
         let yAxis = (containerCenterY - e.pageY) / 25;
         setXAxis(xAxis);
         setYAxis(yAxis);
-        console.log(xAxis, yAxis);
     };
 
     const onMouseEnter = (_) => {
