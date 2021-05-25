@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      Basics
+      ProjectEuler.Problem1
       SayHello
   other-modules:
       Paths_haskell
